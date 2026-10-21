@@ -2,7 +2,9 @@
 
 Bản lưu mã nguồn CapCut MCP kèm hướng dẫn tiếng Việt để cài trên máy khác từ đầu. Có thể clone hoặc tải ZIP từ repo này; không cần lấy mã nguồn lại từ repo tác giả.
 
-**Repo:** https://github.com/dinhsang1302/capcut-mcp-windows
+**Repo Private:** https://github.com/dinhsang1302/capcut-mcp-windows
+
+Chỉ tài khoản được chủ repo cấp quyền mới tải hoặc cập nhật được. Đăng nhập đúng tài khoản GitHub trước khi clone/tải ZIP. Nếu thấy 404, kiểm tra quyền truy cập và đã chấp nhận lời mời chưa. Quyền repo không vô hiệu hóa bản mã nguồn đã tải trước đó.
 
 **File Word:** [Hướng dẫn cài máy Windows mới](docs/Huong_dan_CapCut_MCP_may_Windows_moi.docx)
 
@@ -78,7 +80,7 @@ Cài CapCut thành công chưa chứng minh draft tương thích. Bước `capcu
 
 ## 6 Tải repo này
 
-Sau khi Git chạy được:
+Sau khi Git chạy được, đăng nhập GitHub bằng tài khoản đã được cấp quyền và chấp nhận lời mời. Khi clone HTTPS lần đầu, Git Credential Manager có thể mở trình duyệt để đăng nhập. Không đưa token vào URL hoặc gửi token trong chat:
 
 ```powershell
 $repo = Join-Path $env:USERPROFILE 'capcut-mcp-windows'
@@ -86,7 +88,7 @@ git clone https://github.com/dinhsang1302/capcut-mcp-windows.git $repo
 Set-Location $repo
 ```
 
-Nếu thư mục đích đã tồn tại, không clone đè: kiểm tra xem đó có đúng repo không. Cách không cần Git: **Code → Download ZIP**, giải nén vào vị trí cố định rồi mở PowerShell trong thư mục có `pyproject.toml`. Không chuyển repo sau khi tạo `.venv`; nếu chuyển, tạo môi trường mới và cập nhật command.
+Nếu thư mục đích đã tồn tại, không clone đè: kiểm tra xem đó có đúng repo không. Cách không cần Git: đăng nhập tài khoản được cấp quyền trên trình duyệt → **Code → Download ZIP**, giải nén vào vị trí cố định rồi mở PowerShell trong thư mục có `pyproject.toml`. Không chuyển repo sau khi tạo `.venv`; nếu chuyển, tạo môi trường mới và cập nhật command.
 
 ## 7 Cài package và cấu hình MCP
 
@@ -168,6 +170,7 @@ Clone repo, tạo .venv, cài dependency và cấu hình MCP bằng script trong
 Backup config trước khi sửa, giữ các MCP khác, kiểm tra cú pháp TOML.
 Không thay quyền Windows, tắt bảo mật, đổi Execution Policy hoặc dùng force save.
 Không chỉnh/sửa/lưu bất kỳ project thật nào trong bước cài đặt.
+Repo là Private: báo tôi đăng nhập GitHub hoặc xin quyền nếu chưa truy cập được.
 Sau khi mở lại Codex, chạy capcut_probe và báo kết quả thực tế cùng lỗi còn lại.
 ```
 
