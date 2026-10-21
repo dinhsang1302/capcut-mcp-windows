@@ -1,0 +1,9 @@
+# Preserve the original snapshot byte-for-byte for provenance hashes.
+src/capcut_mcp/*.py -text
+scripts/verify_setup.py -text
+scripts/verify_tools.py -text
+scripts/verify_render.py -text
+docs/UPSTREAM_README.md -text
+LICENSE -text
+pyproject.toml -text
+*.docx binary

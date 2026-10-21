@@ -1,0 +1,53 @@
+{
+  "original_project": "capcut-mcp",
+  "original_repository": "https://github.com/LHenri88/capcut-mcp",
+  "license": "MIT",
+  "original_copyright": "2026 Henri8",
+  "note": "Preserved local source snapshot; upstream availability not asserted. Extra installer/docs are separate.",
+  "original_python_files": [
+    {
+      "path": "src/capcut_mcp/catalog.py",
+      "sha256": "29229952cc49a194243af542131e9304ca42a7f03482473d0248236870e4cace"
+    },
+    {
+      "path": "src/capcut_mcp/draft.py",
+      "sha256": "fabf6862bd1ba2a1715d406d20d5627cf7a646406251efff1ba9af103a1b4fa1"
+    },
+    {
+      "path": "src/capcut_mcp/edits.py",
+      "sha256": "1b2fcb3f183ae98267aa70282ce3e4df7655e89547ae80f255d0985101133762"
+    },
+    {
+      "path": "src/capcut_mcp/ir.py",
+      "sha256": "fc0287e77c2c7952eb0f645ccf0aefec8ef47b4748dbed20a8d2fe98f122bce3"
+    },
+    {
+      "path": "src/capcut_mcp/paths.py",
+      "sha256": "cf0ee9bc8372d1600447b62cef68855274d2629ef1152be1646c1b0bd325cb8a"
+    },
+    {
+      "path": "src/capcut_mcp/preview.py",
+      "sha256": "e4a156a170273031d85688f30a78b849774f577807b3728947f2129f4de7311b"
+    },
+    {
+      "path": "src/capcut_mcp/server.py",
+      "sha256": "e397e02a7eb23f2f55ff2151a0976a617b6859456ac9ab8e98042a074f633b83"
+    },
+    {
+      "path": "src/capcut_mcp/__init__.py",
+      "sha256": "dbb69775d035562d1fb1c48df98dba4f6af9b7493aee359cb5621b762a79317e"
+    },
+    {
+      "path": "scripts/verify_render.py",
+      "sha256": "58712f7b2f43f34709a8f5cb019949b400a42245e43fbb0e0a7c8d6fca9695d0"
+    },
+    {
+      "path": "scripts/verify_setup.py",
+      "sha256": "bab85b2a0a0b42a46329a884eb3b61e330f0bdd7cb77478ea402bc18c71230e2"
+    },
+    {
+      "path": "scripts/verify_tools.py",
+      "sha256": "a93b8542165dcbe83e42f73865a91604c20675588fdb0f4a75729eea55ca6a98"
+    }
+  ]
+}

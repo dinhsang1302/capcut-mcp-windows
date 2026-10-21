@@ -1,0 +1,3 @@
+# MCP version observed in the original working installation.
+# Transitive dependencies and build backend are not fully locked.
+mcp==2.3.0
