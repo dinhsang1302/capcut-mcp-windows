@@ -2,7 +2,7 @@
 
 Bản lưu mã nguồn CapCut MCP kèm hướng dẫn tiếng Việt để cài trên máy khác từ đầu. Có thể clone hoặc tải ZIP từ repo này; không cần lấy mã nguồn lại từ repo tác giả.
 
-**Repo:** https://github.com/kinika1302-sys/capcut-mcp-windows
+**Repo:** https://github.com/dinhsang1302/capcut-mcp-windows
 
 **File Word:** [Hướng dẫn cài máy Windows mới](docs/Huong_dan_CapCut_MCP_may_Windows_moi.docx)
 
@@ -82,7 +82,7 @@ Sau khi Git chạy được:
 
 ```powershell
 $repo = Join-Path $env:USERPROFILE 'capcut-mcp-windows'
-git clone https://github.com/kinika1302-sys/capcut-mcp-windows.git $repo
+git clone https://github.com/dinhsang1302/capcut-mcp-windows.git $repo
 Set-Location $repo
 ```
 
@@ -159,7 +159,7 @@ Mở lại Codex và probe. Source trên NAS phải đọc được bằng tài 
 Dán URL repo kèm prompt sau vào agent có terminal local. Cài ứng dụng có thể cần người dùng hoàn tất giao diện/đăng nhập; agent phải báo rõ thay vì tự nói đã xong.
 
 ```text
-Hãy cài CapCut MCP từ https://github.com/kinika1302-sys/capcut-mcp-windows
+Hãy cài CapCut MCP từ https://github.com/dinhsang1302/capcut-mcp-windows
 trên máy Windows này. Đọc README.md và AGENTS.md trước.
 Kiểm tra máy đang có gì; hướng dẫn/cài Python 3.13, Git, FFmpeg và FFprobe
 còn thiếu theo nguồn chính thức trong README. Cài Codex/CapCut nếu thiếu;
